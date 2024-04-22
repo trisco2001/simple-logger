@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir -p /var/log/flask-app/
-touch /var/log/flask-app/app.log
-tail -f /var/log/flask-app/app.log
+mkdir -p /opt/app-root/logs/
+touch /opt/app-root/logs/app.log
+tail -f /opt/app-root/logs/app.log
